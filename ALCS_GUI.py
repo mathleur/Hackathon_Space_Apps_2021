@@ -5,7 +5,8 @@ import matplotlib
 matplotlib.use('TkAgg')
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-
+from gen_lightcurve import gen_lightcurve
+from runbatchfile import runBlender
 #from brightness_calc1 import get_luminance
 import time
 
@@ -13,12 +14,26 @@ def hello():
     print("Hello")
 
 def getDirectory():
+    global directory
     directory = filedialog.askdirectory()
+    directory = directory.replace("/","\\")
     directoryEntry.delete(0,END)
     directoryEntry.insert(0, directory)
+    print("Directory: ",directory)
 
 def main():
-    pass
+    global x, brightnesses, directory   
+    directoryString = directory
+    runBlender(directoryString)
+    print("Blender Run")
+    x,brightnesses = gen_lightcurve(directoryString)
+
+def createFigure():
+    global x, brightnesses
+    x = np.array(x)
+    brightnesses = np.array(brightnesses)
+    plotFigure.plot(x,brightnesses)
+
 
 app = Tk()
 app.title("ALCS")
@@ -46,9 +61,16 @@ periodLabel.grid(row=2,column = 0)
 periodEntry = Entry(master = frameLeft)
 periodEntry.grid(row=2,column = 1)
 
+axisLabel = Label(master = frameLeft, text = "Rotational Axis")
+axisLabel.grid(row=3,column = 0)
+
+axisEntry = Entry(master = frameLeft)
+axisEntry.grid(row=3,column = 1)
+
+
 
 runButton = Button(master = frameLeft, text = "Run",command = main)
-runButton.grid(row = 3, column = 0,columnspan = 2)
+runButton.grid(row = 4, column = 0,columnspan = 2)
 
 
 
@@ -69,24 +91,11 @@ plotFigure = figureWindow.add_subplot(111)
 #a.invert_yaxis()
 
 
-#Light Curve
+
+
+x = []
 brightnesses = []
-t1 = time.process_time()
-
-
-steps = 10
-for i in range(steps):
-    filename_beginning = 'E:\\Users\\John\\OneDrive\\Hackathon\\GithubFiles\\Space-Apps-Hackathon\\BlenderImage' + str(i) 
-    filename = filename_beginning + '.png'
-    #brightnesses.append(get_luminance(filename))
-    brightnesses.append(i)
-    print(i)
-brightnesses = np.asarray(brightnesses)
-
-x = range(steps)
-x = np.array(x)
-brightnesses = np.array(brightnesses)
-plotFigure.plot(x,brightnesses)
+#plotFigure.plot(x,brightnesses)
 
 plotFigure.set_title ("Test Plot", fontsize=16)
 plotFigure.set_ylabel("Y", fontsize=14)
@@ -98,8 +107,7 @@ canvas.get_tk_widget().grid(row = 1, column = 0)
 
 #plt.plot(x, brightnesses)
 #plt.savefig('E:\\Users\\John\\OneDrive\\Hackathon\\GithubFiles\\Space-Apps-Hackathon\\lightcurve.png')
-t2 = time.process_time()
-print(t2-t1)
+
 
 
 
