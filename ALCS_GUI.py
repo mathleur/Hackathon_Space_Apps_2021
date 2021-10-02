@@ -24,9 +24,10 @@ def getDirectory():
 def main():
     global x, brightnesses, directory   
     directoryString = directory
-    runBlender(directoryString)
+    runBlender()
     print("Blender Run")
-    x,brightnesses = gen_lightcurve(directoryString)
+    x,brightnesses = gen_lightcurve()
+    createFigure()
 
 def createFigure():
     global x, brightnesses
