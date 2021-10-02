@@ -27,13 +27,20 @@ def main():
     runBlender()
     print("Blender Run")
     x,brightnesses = gen_lightcurve()
-    createFigure()
+    updatePlot()
 
-def createFigure():
+def updatePlot():
     global x, brightnesses
     x = np.array(x)
     brightnesses = np.array(brightnesses)
+    figureWindow.clf()
+    plotFigure = figureWindow.add_subplot(111)
     plotFigure.plot(x,brightnesses)
+    plotFigure.set_title ("Test Plot", fontsize=16)
+    plotFigure.set_ylabel("Y", fontsize=14)
+    plotFigure.set_xlabel("X", fontsize=14)
+    figureWindow.draw()
+
 
 
 app = Tk()
