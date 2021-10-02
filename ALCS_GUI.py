@@ -27,6 +27,7 @@ def main():
     runBlender(directoryString)
     print("Blender Run")
     x,brightnesses = gen_lightcurve(directoryString)
+    createFigure()
 
 def createFigure():
     global x, brightnesses
