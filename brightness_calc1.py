@@ -14,8 +14,8 @@ def get_luminance(filename):
     luminance = np.mean(luminance)
     return luminance
 
-t1 = time.process_time()
-L = get_luminance("BlenderImage0.png") 
-t2 = time.process_time()
-print(L)
-print(t2-t1)
+# t1 = time.process_time()
+# L = get_luminance("BlenderImage0.png") 
+# t2 = time.process_time()
+# print(L)
+# print(t2-t1)
