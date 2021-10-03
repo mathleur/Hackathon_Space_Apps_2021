@@ -63,7 +63,7 @@ There are 4 parameters which you can input:
 * Rotational Axis
   * The axis of rotation as a 3-dimensional tuple (relative to the origin (0,0,0)) without parenthesis and with a space after each comma. Example input: 0, 0, 1
 * Filename 
-  * The filename of the asteroid object we want to get the lightcurve for (which ends in .obj) as a string. Example input: 1996hw1.obj
+  * The filename of the asteroid object we want to get the lightcurve for (which ends in .obj) as a string. Example input: 1996hw1.obj - if you would like other models, plenty are available here: https://nasa3d.arc.nasa.gov/models
 
 Before running this code, be sure to save the asteroid object in the same folder as all the code used for this project.
 <br>
