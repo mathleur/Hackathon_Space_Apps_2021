@@ -22,7 +22,7 @@ python -m pip install -r requirements.txt
 
 Finally, download all the files in our project in the same folder and run them directly from this folder. 
 <br> 
-To access this folder in your terminal, you should type in 
+To access this folder in your terminal, you should type (in the terminal from which you are running python)
 ``` txt
 cd \your\path\to\directory\with\all\the\project\code\inside
 ```
