@@ -19,6 +19,10 @@ or if this doesn't work, you should try
 ``` txt
 python -m pip install -r requirements.txt
 ```
+or 
+``` txt
+python3 -m pip install -r requirements.txt
+```
 
 Finally, download all the files in our project in the same folder and run them directly from this folder. 
 <br> 
