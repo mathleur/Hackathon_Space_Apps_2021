@@ -65,7 +65,7 @@ There are 4 parameters which you can input:
 * Filename 
   * The filename of the asteroid object we want to get the lightcurve for (which ends in .obj) as a string. Example input: 1996hw1.obj - if you would like other models, plenty are available here: https://nasa3d.arc.nasa.gov/models
 * Light Angle
-  *
+  * The angle the light source is rotated around the x-axis in degrees as an integer. Example input: 60
 * Rotation Period
   * The period of rotation of the asteroid, ie the time it takes to make a full revolution around its rotation axis, in seconds and as an integer. Example input: 1000
 
