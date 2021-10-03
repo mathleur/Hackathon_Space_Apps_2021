@@ -32,27 +32,44 @@ cd \your\path\to\directory\with\all\the\project\code\inside
 ```
 Then you will finally be able to run this project!
 
-### Starting
+### Running the project
 
-open the ALCS_GUI.py
-
-There are 4 parameters you can type in which includes
-1) Camera Position in 3d- tuples
-2) Number of steps
-3) Rotational-Axis
-4) filename of the 3d model for example as an .obj
+Our project runs entirely by just running the ALCS_GUI.py file.
+This opens a window like the following: 
 
 ![image](https://user-images.githubusercontent.com/90444327/135748240-e270f0b2-a323-4148-9fb4-e649ed668eb5.png)
 
-### Generated
+There are 4 parameters you can input:
+1) Camera Position 
+_The position where we place the camera as a 3-dimensional tuple (relative to the origin (0,0,0)) without parenthesis and with a space after each comma. Example input: 10, 0, 0_
+2) Number of steps
+_The number of steps used as an integer, this will be the number of steps in which the 360 degree rotation will be divided. For instance, if we say the number of steps is 2, we will have images of the asteroid at 0 and 180 degrees. Example input: 360_
+3) Rotational Axis
+_The axis of rotation as a 3-dimensional tuple (relative to the origin (0,0,0)) without parenthesis and with a space after each comma. Example input: 0, 0, 1_
+4) Filename 
+_The filename of the asteroid object we want to get the lightcurve for (which ends in .obj) as a string. Example input: 1996hw1.obj_
 
-Three things will be generated 
-1) Images of asteroids in images folder (the amount of images inside is the number of steps you put)
-2) Graph containing the same number of points as the number of steps
-3) A dict.txt file that passes your parameter to blender
+Before running this code, be sure to save the asteroid object in the same folder as all the code used for this project.
+<br>
+Also note that the asteroid object will be placed at the origin and thus the camera position and rotational axis are relative to the center of the asteroid.
+<br>
+Once you have inserted all parameters, you can click Run to generate the lightcurve of your chosen asteroid.
+<br>
+Clicking the run button will generate the following:
+1) Images of the asteroids at the different degrees specified by the Number of steps
+_These will be stored in a newly created Image folder (the amount of images inside the folder is the number of steps you input)_
+2) Lightcurve plot
+_Plot of the lightcurve of the asteroid, where points are obtained at the angles specified by the Number of steps_
+3) A dict.txt file 
+_This file is used to pass the inputted variables onto the python script on Blender_
+
+After clicking the run button and allowing time for the program to run, the lightcurve will be plotted on the window as such:
 
 ![image](https://user-images.githubusercontent.com/90444327/135749124-7cc960b4-68de-4020-9ef8-3f4982628d0b.png)
 
+The remaining two created objects will appear in the folder the project code is located in as such:
+
 ![image](https://user-images.githubusercontent.com/90444327/135749221-505622e5-6ff8-455c-bae7-1f6628cc9b20.png)
+
 
 
