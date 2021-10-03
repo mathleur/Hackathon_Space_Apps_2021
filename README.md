@@ -3,7 +3,7 @@
 ## How to use this repository
 
 ### Prerequisites
-Install the Blender application under the path "C:\Program Files\Blender Foundation\Blender 2.93\blender.exe".
+Install the Blender application under the path ```"C:\Program Files\Blender Foundation\Blender 2.93\blender.exe".```
 <br>
 Or if the Blender application was installed under another path, change the path in renderfile1.bat to this path as such:
 ``` txt
