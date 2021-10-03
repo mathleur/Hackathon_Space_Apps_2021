@@ -1,4 +1,4 @@
-def sentParams(cameraLoc, steps, rotationAxis, fileUpload):
+def sentParams(cameraLoc, steps, rotationAxis, fileUpload, light):
   hashParams = locals()
   return hashParams
 
@@ -8,7 +8,7 @@ def save_dict_to_file(dic):
     f.close()
 
 
-save_dict_to_file(sentParams((10.5, 0, 0), 3, (0, 0, 1), '1996hw1.obj'))
+# save_dict_to_file(sentParams((10.5, 0, 0), 3, (0, 0, 1), '1996hw1.obj'))
 
 # This will save parameters 1, 2 , 3 to param1, param2 and param3
 

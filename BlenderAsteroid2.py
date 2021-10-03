@@ -55,7 +55,8 @@ print("Camera Linked to Scene")
 
 #Change locations if needed
 camera.location = load["cameraLoc"]
-light.rotation_euler[0] = math.radians(60)
+light_angle = load["light"]
+light.rotation_euler[0] = math.radians(light_angle)
 #Replace with input
 rotationAxis = load["rotationAxis"]
 
