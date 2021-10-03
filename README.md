@@ -42,6 +42,7 @@ This opens a window like the following:
 There are 4 parameters you can input:
 * Camera Position 
   *The position where we place the camera as a 3-dimensional tuple (relative to the origin (0,0,0)) without parenthesis and with a space after each comma. Example input: 10, 0, 0
+<br>
 *Number of steps
   *The number of steps used as an integer, this will be the number of steps in which the 360 degree rotation will be divided. For instance, if we say the number of steps is 2, we will have images of the asteroid at 0 and 180 degrees. Example input: 360
 3) Rotational Axis
