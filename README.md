@@ -47,7 +47,7 @@ Then you will finally be able to run this project!
 
 ### Running the project
 
-Our project runs entirely by just running the ALCS_GUI.py file.
+Our project runs entirely by just running the ALCS_GUI1.py file.
 This opens a window like the following: 
 
 ![image](https://user-images.githubusercontent.com/90444327/135748240-e270f0b2-a323-4148-9fb4-e649ed668eb5.png)
