@@ -13,7 +13,7 @@ Install the Blender application under the path ```"C:\Program Files\Blender Foun
 <br>
 Or if the Blender application was installed under another path, change the path in renderfile1.bat to this path as such:
 ``` txt
-# your\path\to\file\renderfile1.bat
+# your\path\to\file\Hackathon_Space_Apps_2021\renderfile1.bat
 @echo off
 "\your\path\to\blender\application" --background blank2.blend --python "BlenderAsteroid2.py" 
 ```
