@@ -4,15 +4,7 @@
 
 ### Prerequisites
 
-Firstly, install the Blender application under the path ```"C:\Program Files\Blender Foundation\Blender 2.93\blender.exe"```
-<br>
-Or if the Blender application was installed under another path, change the path in renderfile1.bat to this path as such:
-``` txt
-# your\path\to\file\Hackathon_Space_Apps_2021\renderfile1.bat
-@echo off
-"\your\path\to\blender\application" --background blank2.blend --python "BlenderAsteroid2.py" 
-```
-Once this is done, you will need to install the right packages used in this application using the following command: 
+Firstly, you will need to install the right packages used in this application using the following command: 
 
 ``` txt
 pip install -r requirements.txt
@@ -26,9 +18,9 @@ or
 python3 -m pip install -r requirements.txt
 ```
 
-Finally, download all the files in our project in the same folder and run them directly from this folder. 
+Then, you will need to download all the files in our project in the same folder and run them directly from this folder. 
 
-either directly or by cloning the repository by going to your current working directory and do
+You can download the files either directly or by cloning the repository by going to your current working directory like so:
 
 ``` txt
 git clone https://github.com/mathleur/Hackathon_Space_Apps_2021.git
@@ -39,6 +31,17 @@ To access this folder in your terminal, you should type (in the terminal from wh
 ``` txt
 cd \your\path\to\directory\with\all\the\project\code\inside
 ```
+
+
+Finally, you will need to install the Blender application under the path ```"C:\Program Files\Blender Foundation\Blender 2.93\blender.exe"```
+<br>
+Or if the Blender application was installed under another path, change the path in renderfile1.bat to this path as such:
+``` txt
+# your\path\to\file\Hackathon_Space_Apps_2021\renderfile1.bat
+@echo off
+"\your\path\to\blender\application" --background blank2.blend --python "BlenderAsteroid2.py" 
+```
+
 Then you will finally be able to run this project!
 
 ### Running the project
