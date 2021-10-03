@@ -20,7 +20,7 @@ python3 -m pip install -r requirements.txt
 
 Then, you will need to download all the files in our project in the same folder and run them directly from this folder. 
 
-You can download the files either directly or by cloning the repository by going to your current working directory like so:
+You can download the files either directly or by cloning the repository in your current working directory like so:
 
 ``` txt
 git clone https://github.com/mathleur/Hackathon_Space_Apps_2021.git
