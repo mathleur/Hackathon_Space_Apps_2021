@@ -85,13 +85,13 @@ Clicking the run button will generate the following:
 
 After clicking the run button and allowing time for the program to run, the lightcurve will be plotted on the window as such:
 
-![image](https://user-images.githubusercontent.com/90444327/135749124-7cc960b4-68de-4020-9ef8-3f4982628d0b.png)
+![image](https://user-images.githubusercontent.com/79894200/135768197-1dece7c9-3340-4c3b-a46b-27ea9cb493ae.png)
 
 The remaining two created objects will appear in the folder the project code is located in as such:
 
 ![image](https://user-images.githubusercontent.com/90444327/135749221-505622e5-6ff8-455c-bae7-1f6628cc9b20.png)
 
-![image](https://user-images.githubusercontent.com/79894200/135768197-1dece7c9-3340-4c3b-a46b-27ea9cb493ae.png)
+
 
 ### Common Issues
 
