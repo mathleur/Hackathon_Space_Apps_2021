@@ -36,7 +36,7 @@ cd \your\path\to\directory\with\all\the\project\code\inside
 
 Finally, you will need to install the Blender application under the path 
 
-``` txt
+```
 "C:\Program Files\Blender Foundation\Blender 2.93\blender.exe"
 ```
 <br>
