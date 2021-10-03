@@ -87,5 +87,11 @@ The remaining two created objects will appear in the folder the project code is 
 
 ![image](https://user-images.githubusercontent.com/90444327/135749221-505622e5-6ff8-455c-bae7-1f6628cc9b20.png)
 
+### Common Issues
 
+If you run into problems, there are a number of common ways to fix the program, listed below:
+* Ensure the .bat file has the correct path for the blender installation on your computer
+* Check in the "Image" folder to ensure that the camera is not zoomed too far in / is not too close to the object
+* If the .py file does not immediately run, it may be helpful to run from an IDE e.g. Visual Studio Code
+* Ensure the "Image" folder is empty before running
 
