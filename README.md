@@ -28,12 +28,16 @@ git clone https://github.com/mathleur/Hackathon_Space_Apps_2021.git
 
 <br> 
 To access this folder in your terminal, you should type (in the terminal from which you are running python)
+
 ``` txt
 cd \your\path\to\directory\with\all\the\project\code\inside
 ```
 
 
-Finally, you will need to install the Blender application under the path ```"C:\Program Files\Blender Foundation\Blender 2.93\blender.exe"```
+Finally, you will need to install the Blender application under the path 
+``` txt
+"C:\Program Files\Blender Foundation\Blender 2.93\blender.exe"
+```
 <br>
 Or if the Blender application was installed under another path, change the path in renderfile1.bat to this path as such:
 ``` txt
