@@ -93,5 +93,5 @@ If you run into problems, there are a number of common ways to fix the program, 
 * Ensure the .bat file has the correct path for the blender installation on your computer
 * Check in the "Image" folder to ensure that the camera is not zoomed too far in / is not too close to the object
 * If the .py file does not immediately run, it may be helpful to run from an IDE e.g. Visual Studio Code
-* Ensure the "Image" folder is empty before running
+* Ensure the "Image" folder is deleted before running
 
