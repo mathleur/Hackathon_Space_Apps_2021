@@ -91,6 +91,8 @@ The remaining two created objects will appear in the folder the project code is 
 
 ![image](https://user-images.githubusercontent.com/90444327/135749221-505622e5-6ff8-455c-bae7-1f6628cc9b20.png)
 
+![image](https://user-images.githubusercontent.com/79894200/135768197-1dece7c9-3340-4c3b-a46b-27ea9cb493ae.png)
+
 ### Common Issues
 
 If you run into problems, there are a number of common ways to fix the program, listed below:
