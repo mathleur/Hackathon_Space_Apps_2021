@@ -2,7 +2,7 @@
 
 ## How to use this repository
 
-### Before starting
+### Prerequisites
 Install the Blender application under the path "C:\Program Files\Blender Foundation\Blender 2.93\blender.exe".
 <br>
 Or if the Blender application was installed under another path, change the path in renderfile1.bat to this path as such:
@@ -38,6 +38,8 @@ Our project runs entirely by just running the ALCS_GUI.py file.
 This opens a window like the following: 
 
 ![image](https://user-images.githubusercontent.com/90444327/135748240-e270f0b2-a323-4148-9fb4-e649ed668eb5.png)
+
+### Variables and restrictions
 
 There are 4 parameters you can input:
 * Camera Position 
