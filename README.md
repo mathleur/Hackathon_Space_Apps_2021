@@ -43,7 +43,12 @@ There are 4 parameters you can type in which includes
 ### Generated
 
 Three things will be generated 
-1) Images of asteriods in images folder (the amount of images inside is the number of steps you put)
+1) Images of asteroids in images folder (the amount of images inside is the number of steps you put)
 2) Graph containing the same number of points as the number of steps
 3) A dict.txt file that passes your parameter to blender
+
+![image](https://user-images.githubusercontent.com/90444327/135749124-7cc960b4-68de-4020-9ef8-3f4982628d0b.png)
+
+![image](https://user-images.githubusercontent.com/90444327/135749221-505622e5-6ff8-455c-bae7-1f6628cc9b20.png)
+
 
