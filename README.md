@@ -35,13 +35,14 @@ cd \your\path\to\directory\with\all\the\project\code\inside
 
 
 Finally, you will need to install the Blender application under the path 
+
 ``` txt
 "C:\Program Files\Blender Foundation\Blender 2.93\blender.exe"
 ```
 <br>
 Or if the Blender application was installed under another path, change the path in renderfile1.bat to this path as such:
+
 ``` txt
-# your\path\to\file\Hackathon_Space_Apps_2021\renderfile1.bat
 @echo off
 "\your\path\to\blender\application" --background blank2.blend --python "BlenderAsteroid2.py" 
 ```
