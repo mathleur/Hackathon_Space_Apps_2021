@@ -89,7 +89,7 @@ After clicking the run button and allowing time for the program to run, the ligh
 
 The remaining two created objects will appear in the folder the project code is located in as such:
 
-![image](https://user-images.githubusercontent.com/90444327/135749221-505622e5-6ff8-455c-bae7-1f6628cc9b20.png)
+![image](https://user-images.githubusercontent.com/90444327/135769124-3386b220-305b-4937-9bae-f77c53623f44.png)
 
 
 
