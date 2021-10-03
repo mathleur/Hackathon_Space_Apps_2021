@@ -5,7 +5,7 @@
 ### Before starting
 Install the Blender application under the path "C:\Program Files\Blender Foundation\Blender 2.93\blender.exe"
 Or if the Blender application was installed under another path, change the path in renderfile1.bat to this path as such:
-'''
+''' txt
 @echo off
 "\your\path\to\blender\application" --background blank2.blend --python "BlenderAsteroid2.py" 
 '''
