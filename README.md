@@ -40,4 +40,10 @@ There are 4 parameters you can type in which includes
 
 ![image](https://user-images.githubusercontent.com/90444327/135748240-e270f0b2-a323-4148-9fb4-e649ed668eb5.png)
 
+### Generated
+
+Three things will be generated 
+1) Images of asteriods in images folder (the amount of images inside is the number of steps you put)
+2) Graph containing the same number of points as the number of steps
+3) A dict.txt file that passes your parameter to blender
 
