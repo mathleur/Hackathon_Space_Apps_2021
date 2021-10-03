@@ -50,7 +50,7 @@ Then you will finally be able to run this project!
 Our project runs entirely by just running the ALCS_GUI.py file.
 This opens a window like the following: 
 
-![image](https://user-images.githubusercontent.com/90444327/135767486-1697b471-b966-4526-8e2a-7ca7fa92713e.png)
+![image](https://user-images.githubusercontent.com/79894200/135768255-3f9cc43f-5aca-463e-a40c-9f0ce08a2bcc.png)
 
  
 ### Variables and restrictions
