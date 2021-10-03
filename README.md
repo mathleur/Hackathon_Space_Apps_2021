@@ -55,7 +55,7 @@ This opens a window like the following:
  
 ### Variables and restrictions
 
-There are 4 parameters you can input:
+There are 4 parameters which you can input:
 * Camera Position 
   * The position where we place the camera as a 3-dimensional tuple (relative to the origin (0,0,0)) without parenthesis and with a space after each comma. Example input: 10, 0, 0 
 * Number of steps
