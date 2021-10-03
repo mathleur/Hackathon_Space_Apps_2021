@@ -3,6 +3,12 @@
 ## How to use this repository
 
 ### Prerequisites
+Firstly, Clone the repository by going to your current working directory and do
+
+``` txt
+git clone https://github.com/mathleur/Hackathon_Space_Apps_2021.git
+```
+
 Install the Blender application under the path ```"C:\Program Files\Blender Foundation\Blender 2.93\blender.exe"```
 <br>
 Or if the Blender application was installed under another path, change the path in renderfile1.bat to this path as such:
