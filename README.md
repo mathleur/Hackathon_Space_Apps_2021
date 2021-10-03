@@ -4,3 +4,7 @@
 
 ### Before starting
 Install the Blender application under the path "C:\Program Files\Blender Foundation\Blender 2.93\blender.exe"
+
+### Starting
+
+open the ALCS_GUI.py
