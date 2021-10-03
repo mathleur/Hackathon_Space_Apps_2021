@@ -20,3 +20,6 @@ There are 4 parameters you can type in which includes
 2) Number of steps
 3) Rotational-Axis
 4) filename of the 3d model for example as an .obj
+
+![image](https://user-images.githubusercontent.com/90444327/135748204-f464a649-35a6-4ed4-8938-7bcb5f7b095a.png)
+
